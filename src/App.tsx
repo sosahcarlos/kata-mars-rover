@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 interface Props {
@@ -7,7 +6,6 @@ interface Props {
 }
 
 function App(props: Props = { x: 0, y: 0 }) {
-  // const [position, setPosition] = useState([])
 
   return (
     <div className="App">
